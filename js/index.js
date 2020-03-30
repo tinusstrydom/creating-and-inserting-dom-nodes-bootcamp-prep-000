@@ -3,7 +3,7 @@
 var element = document.createElement('div');
 element.innerHTML = "Hello, Dom!";
 element.style.background = '#f9f9f9';
-element.style.textAlign = 'center'; 
+element.style.textAlign = 'center';
 document.body.appendchild(element);
 
 //add ul list with 3 li's
@@ -20,4 +20,3 @@ ul.style.textAlign = 'center';
 ul.removeChild(ul.querySelector('li:nth-child(2)'));
 //remove ul
 ul.remove();
-
